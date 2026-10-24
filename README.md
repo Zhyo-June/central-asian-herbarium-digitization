@@ -18,7 +18,7 @@ The versioned directories distinguish the earlier records from the reviewed reco
 
 ## Methods and human review
 
-AI was used for label interpretation and georeferencing, followed by human checking. The author confirmed completion of geographic checking and all 60 final place-name-link dispositions on 25 October 2026. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Current records retain final human-review status, original human judgments, sources, unresolved evidence questions and the research results before and after correction. Record fields and version scopes are defined in baseline_P12/docs/DATA_DICTIONARY.md.
+AI was used for label interpretation and georeferencing, followed by human checking. The author confirmed completion of geographic checking and all 60 final place-name-link dispositions on 25 October 2026. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Current records retain final human-review status, original human judgments, sources, unresolved evidence questions and the research results before and after correction. Human review outcomes are retained separately from completion of checking: `pending` means reviewed but still unconfirmed or requiring additional evidence; it is not replaced by the final human-checking completion field. Record fields and version scopes are defined in baseline_P12/docs/DATA_DICTIONARY.md.
 
 ## Use and source access
 
@@ -30,7 +30,7 @@ Image-level reproduction additionally requires the original specimen images/crop
 
 ## Download and file index
 
-- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,896,723 bytes.
+- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,900,961 bytes.
 - [Evidence map](./EVIDENCE_MAP.md)
 - [Source access and terms](./SOURCE_ACCESS.csv)
 - [Package file list and checksums](./PACKAGE_CONTENTS.csv)
