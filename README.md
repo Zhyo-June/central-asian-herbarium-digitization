@@ -16,9 +16,9 @@ Supporting data and code for **Awakening dormant historical plant specimens of C
 
 The versioned directories distinguish the earlier records from the reviewed record state used in P16. The 60-specimen quality estimates describe records before the recorded corrections. The current derived records and those pre-correction estimates retain their respective time points.
 
-## Review and execution provenance
+## Methods and human review
 
-Human verification of the historical AI-assisted working suggestions, all stages of the 50/15-specimen review, the 60-specimen quality review and the geographic interpretations was confirmed by the author on 25 October 2026. Original outputs, unresolved cases and quantitative review denominators remain unchanged. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Model-identification provenance is stored with the affected records. Final human checking is recorded consistently in the current specimen CSV/JSONL and spatial JSONL, including the nine administrative subrecords. All 60 final place-name-link dispositions were individually checked and confirmed by humans. Earlier AI processing and unconfirmed flags are retained as historical-stage records. Review fields are defined in baseline_P12/docs/DATA_DICTIONARY.md.
+AI was used for label interpretation and georeferencing, followed by human checking. The author confirmed completion of geographic checking and all 60 final place-name-link dispositions on 25 October 2026. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Current records retain final human-review status, original human judgments, sources, unresolved evidence questions and the research results before and after correction. Record fields and version scopes are defined in baseline_P12/docs/DATA_DICTIONARY.md.
 
 ## Use and source access
 
@@ -30,7 +30,7 @@ Image-level reproduction additionally requires the original specimen images/crop
 
 ## Download and file index
 
-- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,917,769 bytes.
+- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,896,723 bytes.
 - [Evidence map](./EVIDENCE_MAP.md)
 - [Source access and terms](./SOURCE_ACCESS.csv)
 - [Package file list and checksums](./PACKAGE_CONTENTS.csv)
