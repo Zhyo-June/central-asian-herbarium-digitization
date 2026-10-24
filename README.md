@@ -18,7 +18,7 @@ The versioned directories distinguish the earlier records from the reviewed reco
 
 ## Review and execution provenance
 
-Human verification of the historical AI-assisted working suggestions, all stages of the 50/15-specimen review, the 60-specimen quality review and the geographic interpretations was confirmed by the author on 25 October 2026. Original outputs, unresolved cases and quantitative review denominators remain unchanged. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Model-identification provenance is stored with the affected records.
+Human verification of the historical AI-assisted working suggestions, all stages of the 50/15-specimen review, the 60-specimen quality review and the geographic interpretations was confirmed by the author on 25 October 2026. Original outputs, unresolved cases and quantitative review denominators remain unchanged. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Model-identification provenance is stored with the affected records. Final human checking is now explicitly synchronized across the current specimen CSV/JSONL and spatial JSONL, including the nine administrative subrecords. All 60 final place-name-link dispositions were individually checked and confirmed by humans, including retained unresolved outcomes. Original generation-stage flags remain explicitly historical; see `baseline_P12/docs/DATA_DICTIONARY.md` inside the ZIP. No new independent reviewer or quality observations are claimed.
 
 ## Use and source access
 
@@ -28,10 +28,16 @@ Image-level reproduction additionally requires the original specimen images/crop
 
 `project/`, `external_dataset/`, `external_specimen_images/`, `external_local/` and `skill/` identify upstream source locations requiring local configuration. Embedded historical hashes identify original source artifacts. `SOURCE_FILES.csv` maps copied files to their upstream and released hashes, and `SHA256SUMS.txt` records the actual package contents.
 
+Supplementary Table S1 is supported by both the saved validation summary and the existing development-set summary (`paddle_fixed_update_dev49_summary.csv`, `fixed_final180` rows); the development report was added without rerunning an experiment.
+
 ## Download and file index
 
-- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,827,271 bytes.
+- [P16 supporting data and code](./reproducibility_revision16.zip) — 224 files; 4,919,355 bytes.
 - [Evidence map](./EVIDENCE_MAP.md)
 - [Source access and terms](./SOURCE_ACCESS.csv)
 - [Package file list and checksums](./PACKAGE_CONTENTS.csv)
 - [ZIP SHA-256](./PACKAGE_SHA256.txt)
+
+## Access to complete original inputs for review
+
+On request, the authors can provide editors and reviewers with original files or access links for the complete original specimen images and crops, annotations, regional catalogue workbook, reference and geographic databases, and fine-tuned model weights. This review-access arrangement does not mean that all of these inputs are included in this public download; provider-specific terms continue to apply.

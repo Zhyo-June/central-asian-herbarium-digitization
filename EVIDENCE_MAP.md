@@ -11,7 +11,7 @@ Paths below are relative to the extracted `reproducibility_revision16.zip`. The 
 | Table 4: three spatial-record stages | `baseline_P12/geography/spatial_records_paired.jsonl`, `baseline_P12/geography/spatial_coverage_paired.csv`, `update_P15/quality_audit/curation_summary.json`, `update_P15/derived/spatial_records_reviewed319.jsonl` |
 | Table 5: quality of records before the current corrections | `update_P15/quality_audit/weighted_quality_before_corrections.csv`, `statistical_method.json`, `field_judgments_before_corrections.csv` |
 | Figure 5: current spatial display | `update_P15/derived/map_reviewed319.geojson`, `update_P15/derived/spatial_records_reviewed319.jsonl`, `update_P15/figure_source_data/figure5_spatial_points.csv`; saved artwork in `figures_P16/` |
-| S1: fixed-update Paddle comparison | `baseline_P12/tables/paddle_fixed_update_summary.csv`, `baseline_P12/config/paddle_fixed_update_protocol.json`, `baseline_P12/config/paddle_fixed_update_runtime.json` |
+| S1: fixed-update Paddle comparison | `baseline_P12/tables/paddle_fixed_update_summary.csv` (validation), `baseline_P12/tables/paddle_fixed_update_dev49_summary.csv` (`fixed_final180` development rows), `baseline_P12/config/paddle_fixed_update_protocol.json`, `baseline_P12/config/paddle_fixed_update_runtime.json` |
 | S2; Figure 4b: retrieval benchmark | `baseline_P12/retrieval/benchmark_queries.jsonl`, `query_outcomes.csv`, `metrics.json`, `ranked_results.jsonl.gz` |
 | S3: locality thresholds | `baseline_P12/tables/metrics_side_by_side.csv`, `baseline_P12/tables/unified319_summary.json` |
 | S4: within-field character coverage | `baseline_P12/tables/per_field_counts.csv`, `baseline_P12/tables/unified319_summary.json` |
@@ -35,3 +35,5 @@ Paths below are relative to the extracted `reproducibility_revision16.zip`. The 
 | S24: historical 49-specimen use | `update_P15/historical49/historical49_timeline.json`, `historical49_roster_recheck.json`, `historical49_eligibility_updated.json`, `split_policy.json`, `splits.csv` and accompanying recheck records |
 
 Where a row lists a directory once followed by bare filenames, all such filenames share that directory. Inspect recorded results directly; publishing this archive did not rerun these analyses. Raw images and fine-tuned model weights are not part of this archive. Figure 2 contains third-party specimen images and is not separately distributed here.
+
+Review-stage field definitions are in `baseline_P12/docs/DATA_DICTIONARY.md`. Current human checking, original AI execution and frozen analysis-stage metadata have separate meanings.
