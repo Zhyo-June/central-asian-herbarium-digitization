@@ -16,6 +16,10 @@ Supporting data and code for **Awakening dormant historical plant specimens of C
 
 The versioned directories distinguish the earlier records from the reviewed record state used in P16. The 60-specimen quality estimates describe records before the recorded corrections. The current derived records and those pre-correction estimates retain their respective time points.
 
+## Review and execution provenance
+
+Human verification of the historical AI-assisted working suggestions, all stages of the 50/15-specimen review, the 60-specimen quality review and the geographic interpretations was confirmed by the author on 25 October 2026. Original outputs, unresolved cases and quantitative review denominators remain unchanged. The interactive geographic-session model is identified by the author as GPT 6 Astra; archived Gemini API records and Claude/DeepSeek extraction records retain their recorded model identifiers. Model-identification provenance is stored with the affected records.
+
 ## Use and source access
 
 Extract the package before use. Files ending in `.jsonl.gz` contain gzip-compressed UTF-8 JSON Lines. From the extracted `baseline_P12` directory, `python code/export_tables.py` exports descriptive tables from saved baseline results. The quality-analysis scripts in `update_P15/code/` retain the original project-layout assumptions documented in their README.
@@ -26,7 +30,7 @@ Image-level reproduction additionally requires the original specimen images/crop
 
 ## Download and file index
 
-- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,816,259 bytes.
+- [P16 supporting data and code](./reproducibility_revision16.zip) — 223 files; 4,827,271 bytes.
 - [Evidence map](./EVIDENCE_MAP.md)
 - [Source access and terms](./SOURCE_ACCESS.csv)
 - [Package file list and checksums](./PACKAGE_CONTENTS.csv)
